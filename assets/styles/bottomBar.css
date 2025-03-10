@@ -1,0 +1,10 @@
+#bottom-bar {
+    position: sticky;
+    bottom: 0;
+}
+
+.bottom-bar-container {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
