@@ -1,7 +1,6 @@
 .cart-item-container {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     border: 1px solid #ccc;
     width: 80%;
     margin: 0 auto;
@@ -12,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .right-sub-container {
@@ -22,7 +21,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
 }
 
 .btn-container {

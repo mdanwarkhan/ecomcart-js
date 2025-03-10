@@ -1,7 +1,7 @@
 import createBottomBarElement from '../components/bottomBar.js';
 import createCartItemElement from '../components/CartItem.js';
 
-export class Cart {
+export default class Cart {
     constructor(cartItems) {
         this.cartItems = cartItems;
         this.renderCart();

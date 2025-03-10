@@ -1,5 +1,5 @@
 import { fetchCart } from "../../services/cartService.js";
-import { Cart } from "../../pages/cart.js";
+import Cart from "../../pages/cart.js";
 
 console.log('main script loaded')
 
