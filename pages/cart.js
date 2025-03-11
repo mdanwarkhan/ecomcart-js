@@ -21,14 +21,14 @@ export default class Cart {
     }
 
     getTotalPrice() {
-        return this.cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+        return this.cartItems.reduce((total, item) => total + item.price * item.quantity, 0) || 0;
     }
 
     renderCart() {
         const cartContainer = document.getElementById('cart');
         cartContainer.innerHTML = '';
 
-        this.cartItems.forEach(item => {
+        this.cartItems?.forEach(item => {
             const itemElement = createCartItemElement(item);
             cartContainer.appendChild(itemElement);
         });

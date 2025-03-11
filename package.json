@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/mdanwarkhan/ecomcart-js.git"
   },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -25,5 +28,8 @@
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0"
   }
 }

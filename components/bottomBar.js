@@ -5,15 +5,15 @@ function createBottomBarElement(price) {
     if (!bottomBar) return;
 
     if (price === 0) {
-        bottomBar.remove(bottomBar);
+        bottomBar.innerHTML = '';
         location.reload();
-        return
+        return;
     }
 
     bottomBar.innerHTML = '';
 
     const bottomBarEl = document.createElement('div');
-    bottomBarEl.className = "bottom-bar-container";
+    bottomBarEl.classList.add("bottom-bar-container");
 
     bottomBarEl.innerHTML = `
         <span>Total: ${priceFormatter(price, 1)}</span>

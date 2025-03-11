@@ -9,9 +9,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function updateCart(userId) {
     const cartItems = await fetchCart(userId);
-    const cart = new Cart(cartItems);
-    const totalPrice = cart.getTotalPrice();
-    cart.renderCart()
-    console.log(totalPrice);
+    new Cart(cartItems);
     console.log('Rendered cart');
 }
