@@ -16,7 +16,7 @@ function createBottomBarElement(price) {
     bottomBarEl.classList.add("bottom-bar-container");
 
     bottomBarEl.innerHTML = `
-        <span>Total: ${priceFormatter(price, 1)}</span>
+        <h3>Total: ${priceFormatter(price, 1)}</h3>
         <button class="btn btn-secondary">Proceed to checkout</button>
     `;
 

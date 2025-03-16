@@ -11,7 +11,7 @@ function createCartItemElement(item) {
             <img src="${item.image}"/> 
             <div class="btn-container">
               <button class="btn btn-primary decrement" ${item.quantity < 2 ? 'disabled' : ''} data-id="${item.id}">-</button>
-              <span>${item.quantity}</span>
+              <div class="quantity">${item.quantity}</div>
               <button class="btn btn-primary increment" data-id="${item.id}">+</button>
             </div>
         </div>

@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid #ccc;
+    border-radius: 8px;
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .left-sub-container {
@@ -21,11 +22,13 @@
     justify-content: space-between;
     align-items: flex-start;
     padding-left: 15px;
-    padding-bottom: 24px;
+    padding-bottom: 25px;
 }
 
 .btn-container {
     margin: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .cart-item-container img {
@@ -33,6 +36,11 @@
     width: 150px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.cart-item-container .quantity {
+    width: 80px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
